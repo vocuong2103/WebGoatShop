@@ -1,0 +1,112 @@
+﻿@model WebBanGiay.Models.Product
+
+@{
+    ViewBag.Title = "GoatSneaker";
+    Layout = "~/Views/Shared/_Details.cshtml";
+}
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<style>
+    h2 {
+        text-align: center;
+    }
+
+    .box-detail-description {
+        width: 60%;
+        height: 100%;
+        float: right;
+        text-align: left;
+        padding: 15px;
+    }
+
+    .box-detail-image {
+        float: left;
+        width: 40%;
+        height: 100%;
+        box-shadow: 1px 1px 4px 4px gray;
+    }
+
+    .box-detail-description dl {
+        margin-top: 100px;
+    }
+
+    .name-product {
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    a input {
+        border-radius: 20px;
+        padding: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .buy-button {
+        background-color: grey;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        padding: 10px 10px;
+        border-radius: 12px;
+        margin-left: 150px;
+    }
+
+        .buy-button:hover {
+            color: white;
+        }
+
+    .back-to-home {
+        background-color: grey;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        padding: 10px 10px;
+        border-radius: 12px;
+        margin-left: 20px;
+    }
+
+        .back-to-home:hover {
+            color: white;
+        }
+</style>
+<h2>Chi tiết sản phẩm</h2>
+<hr />
+<div style="margin-left:20px; margin-right:20px">
+    <div class="box-detail-image">
+        <div>
+            <img src="@Url.Content(Model.ImagePro)" height="500" width="500" />
+        </div>
+    </div>
+    <div class="box-detail-description">
+        <dl>
+            <dd class="name-product">
+                @Html.DisplayFor(model => model.NamePro)
+            </dd>
+
+            <dd style="color:gray;font-size:24px;">
+                @Html.DisplayFor(model => model.DecriptionPro)
+            </dd>
+            <dd>
+                <img src="~/Image/tick.png" style="height:20px;width:20px; " /> Chính sách: Bảo hành, đổi trả, đảm bảo lợi ích người tiêu dùng  <br />
+                <img src="~/Image/tick.png" style="height:20px;width:20px; " /> Đối tượng: Nam nữ, phù hợp với mọi lứa tuổi.<br />
+                <img src="~/Image/delivery.png" style="height:20px;width:20px; " /> Ship toàn quốc - Giao hàng tận nơi - Thanh toán online
+            </dd>
+            <dd style="color:red;font-weight:600;font-size:26px;">
+                @Html.DisplayFor(model => model.Price)<span>$</span>
+            </dd>
+
+        </dl>
+        <a href="/ShoppingCart/AddToCart/@Model.IDProduct" class="buy-button btn btn-success">Mua</a>
+        <span> <a href="~/Product/Index"> <input class="back-to-home btn btn-primary" type="button" value="Trở lại trang chủ" /></a></span>
+
+    </div>
+
+
+
+</div>

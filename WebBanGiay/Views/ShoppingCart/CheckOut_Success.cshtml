@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "GoatSneaker";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device=width" />
+    <title> Thanh Toán Giỏ Hàng</title>
+</head>
+<body style="text-align:center;">
+    <h2 style="text-align:center;"> Thanh Toán Thành Công</h2>
+
+
+    <h4> Cảm ơn bạn @Session["Username"]. Bạn sẽ nhận được hàng trong vòng 2-3 ngày tới. Vui lòng kiểm tra thông tin đơn hàng trên trang web. Xin cảm ơn !!!</h4>
+    <a href="@Url.Action("Index","Product")"> Ấn vào đây nếu bạn muốn tiếp tục mua hàng...</a>
+
+</body>

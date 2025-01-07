@@ -1,0 +1,90 @@
+﻿@model IEnumerable<WebBanGiay.Models.Product>
+
+@{
+    ViewBag.Title = "GoatSneaker";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+<style>
+    .btn-edit {
+        border-radius: 8px;
+        color: white;
+        border-color: #e3e039;
+        background: #e3e039;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+    .btn-details {
+        border-radius: 8px;
+        color: white;
+        border-color: #198754;
+        background: #198754;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+    .btn-delete {
+        border-radius: 8px;
+        color: white;
+        border-color: #de4f45;
+        background: #de4f45;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+</style>
+
+<h2>Sản phẩm</h2>
+
+<p>
+    <a href="/Product/Create" class="btn-details">Thêm sản phẩm</a>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            Tên sản phẩm
+        </th>
+        <th>
+            Chi tiết
+        </th>
+        <th>
+            Danh mục
+        </th>
+        <th>
+            Giá
+        </th>
+        <th>
+            Hình ảnh
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDProduct)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NamePro)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DecriptionPro)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDCategory)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            <img src="@Url.Content(item.ImagePro)" height="70" width="70" />
+        </td>
+        <td>
+            <a href="/Product/Edit/@item.IDProduct" class="btn-edit">Chỉnh sửa</a> |
+            <a href="/Product/DetailsAdmin/@item.IDProduct" class="btn-details">Chi tiết</a> |
+            <a href="/Product/Delete/@item.IDProduct" class="btn-delete">Xóa</a>
+        </td>
+    </tr>
+}
+
+</table>

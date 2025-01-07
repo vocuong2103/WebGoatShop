@@ -1,0 +1,55 @@
+﻿@model WebBanGiay.Models.Category
+
+@{
+    ViewBag.Title = "GoatSneaker";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+<style>
+    .btn-delete {
+        border-radius: 8px;
+        color: white;
+        border-color: #de4f45;
+        background: #de4f45;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+    .btn {
+        border-radius: 8px;
+        color: white;
+        border-color: cornflowerblue;
+        background: cornflowerblue;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+
+</style>
+<h3>Bạn có muốn xóa danh mục?</h3>
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            ID
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDCate)
+        </dd>
+
+        <dt>
+            Tên danh mục
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameCate)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+<div class="form-actions no-color">
+    <input type="submit" value="Xóa" class="btn-delete" /> | <a href="/Category/Index" class="btn">Trở về</a>
+</div>
+    }
+</div>

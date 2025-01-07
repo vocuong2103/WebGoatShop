@@ -1,0 +1,52 @@
+﻿@model IEnumerable<WebBanGiay.Models.Product>
+@{
+    ViewBag.Title = "GoatSneaker";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .description-info {
+        border-radius: 14px;
+        padding: 5px;
+    }
+
+
+    .button-detail {
+        background-color: grey;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        padding: 5px 5px;
+        border-radius: 12px;
+    }
+
+        .button-detail:hover {
+            color: white;
+        }
+</style>
+<h2 style="text-align:center;">Adidas</h2>
+
+<div class="container">
+    <div class="row">
+        @foreach (var pro in Model)
+        {
+            <div class="col-sm-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card-pro">
+                    <img src="@Url.Content(pro.ImagePro)" height="150" width="150" />
+                    <div class="description-info">
+                        <p>@Html.DisplayFor(model => pro.NamePro)</p>
+                        <p style="font-size:14px;color:gray;">@Html.DisplayFor(model => pro.DecriptionPro)</p>
+                        <p>@Html.DisplayFor(model => pro.Price)<span>$</span></p>
+                        <a href="/ShoppingCart/AddToCart/@pro.IDProduct" class="buy-button btn btn-success">Buy</a>
+                        <a href="~/Product/Details/@pro.IDProduct" class="button-detail"> Chi tiết</a>
+
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+

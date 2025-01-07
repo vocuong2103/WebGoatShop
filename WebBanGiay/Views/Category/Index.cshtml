@@ -1,0 +1,67 @@
+﻿@model IEnumerable<WebBanGiay.Models.Category>
+
+@{
+    ViewBag.Title = "GoatSneaker";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+<style>
+    .btn-edit {
+        border-radius: 8px;
+        color: white;
+        border-color: #e3e039;
+        background: #e3e039;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+
+    .btn-details {
+        border-radius: 8px;
+        color: white;
+        border-color: #198754;
+        background: #198754;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+
+    .btn-delete {
+        border-radius: 8px;
+        color: white;
+        border-color: #de4f45;
+        background: #de4f45;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+</style>
+<h2>Danh mục</h2>
+
+<p>
+    <a href="/Category/Create" class="btn-details">Thêm danh mục</a>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            Tên danh mục
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDCate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NameCate)
+        </td>
+        <td>
+            <a href="/Category/Edit/@item.IDCate" class="btn-edit">Chỉnh sửa</a> |
+            <a href="/Category/Details/@item.IDCate" class="btn-details">chi tiết</a> |
+            <a href="/Category/Delete/@item.IDCate" class="btn-delete">Xóa</a>
+        </td>
+    </tr>
+}
+
+</table>

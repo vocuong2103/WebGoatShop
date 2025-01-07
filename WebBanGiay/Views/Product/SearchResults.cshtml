@@ -1,0 +1,37 @@
+﻿@model List<WebBanGiay.Models.Product>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Search Results";
+}
+
+<h2 style="text-align:center;">Kết quả tìm kiếm</h2>
+
+@if (Model.Any())
+{
+<div class="container">
+    <div class="row">
+        @foreach (var pro in Model)
+        {
+            <div class="col-sm-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card-pro">
+                    <img src="@Url.Content(pro.ImagePro)" height="150" width="150" />
+                    <div class="description-info">
+                        <p>@Html.DisplayFor(model => pro.NamePro)</p>
+                        <p style="font-size:14px;color:gray;">@Html.DisplayFor(model => pro.DecriptionPro)</p>
+                        <p>@Html.DisplayFor(model => pro.Price)<span>$</span></p>
+                        <a href="/ShoppingCart/AddToCart/@pro.IDProduct" class="buy-button btn btn-success">Mua</a>
+                        <a href="~/Product/Details/@pro.IDProduct" class="button-detail"> Chi tiết</a>
+
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+}
+else
+{
+    <p style="text-align:center;">Không tìm thấy sản phẩm</p>
+}
+

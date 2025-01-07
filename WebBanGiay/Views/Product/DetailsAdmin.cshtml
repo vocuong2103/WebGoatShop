@@ -1,0 +1,82 @@
+﻿@model WebBanGiay.Models.Product
+
+@{
+    ViewBag.Title = "GoatSneaker";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+<style>
+    .btn-edit {
+        border-radius: 8px;
+        color: white;
+        border-color: #e3e039;
+        background: #e3e039;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+
+    .btn {
+        border-radius: 8px;
+        color: white;
+        border-color: cornflowerblue;
+        background: cornflowerblue;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+</style>
+<div>
+    <hr />
+
+    <dl class="dl-horizontal">
+        <dt>
+            ID
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDProduct)
+        </dd>
+
+        <dt>
+            Tên sản phẩm
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NamePro)
+        </dd>
+
+        <dt>
+            Chi tiết
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DecriptionPro)
+        </dd>
+
+        <dt>
+            Danh mục
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDCategory)
+        </dd>
+
+        <dt>
+            Giá
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            Hình
+        </dt>
+
+        <dd>
+            <img src="@Url.Content(Model.ImagePro)" height="150" width="150" />
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <a href="/Product/Edit/@Model.IDProduct" class="btn-edit">Chỉnh sửa</a> | <a href="/Product/IndexAdmin" class="btn">Trở về</a>
+</p>

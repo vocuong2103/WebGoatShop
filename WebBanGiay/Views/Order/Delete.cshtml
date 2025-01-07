@@ -1,0 +1,72 @@
+﻿@model WebBanGiay.Models.OrderPro
+
+@{
+    ViewBag.Title = "GoatSneaker";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<style>
+    .btn {
+        border-radius: 8px;
+        color: white;
+        border-color: cornflowerblue;
+        background: cornflowerblue;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+
+    .btn-delete {
+        border-radius: 8px;
+        color: white;
+        border-color: #de4f45;
+        background: #de4f45;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+</style>
+
+<h3>Bạn có muốn xóa đơn hàng này ?</h3>
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+           ID
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDPro)
+        </dd>
+
+        <dt>
+           Thời gian đặt hàng
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateOrder)
+        </dd>
+
+        <dt>
+           ID khách hàng
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDCus)
+        </dd>
+
+        <dt>
+           Địa chỉ giao hàng
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AddressDeliverry)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+<div class="form-actions no-color">
+    <input type="submit" value="Xóa" class="btn-delete" /> | <a href="/Order/Index" class="btn">Trở về</a>
+</div>
+    }
+</div>

@@ -1,0 +1,113 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.continue-buying {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+    .continue-buying:hover {
+        background-color: #45a049;
+    }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.btn-update {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-delete {
+    background-color: #de4f45;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.total-section {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.checkout-section {
+    margin-top: 20px;
+    text-align: right;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.btn-checkout {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-register {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+}

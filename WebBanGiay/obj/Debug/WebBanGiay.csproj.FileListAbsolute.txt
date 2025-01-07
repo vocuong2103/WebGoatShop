@@ -1,0 +1,254 @@
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\WebBanGiay.dll.config
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\WebBanGiay.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\WebBanGiay.pdb
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\csc.exe
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\csc.exe.config
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\csc.rsp
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\csi.exe
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\csi.exe.config
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\csi.rsp
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.AppContext.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.Console.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.IO.Compression.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.Net.Http.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.Net.Sockets.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.ValueTuple.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.Xml.XPath.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\vbc.exe
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\vbc.exe.config
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\vbc.rsp
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\VBCSCompiler.exe
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\Antlr3.Runtime.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\EntityFramework.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\EntityFramework.SqlServer.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\Newtonsoft.Json.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\System.Web.Helpers.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\System.Web.Mvc.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\System.Web.Optimization.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\System.Web.Razor.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\System.Web.WebPages.Deployment.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\System.Web.WebPages.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\System.Web.WebPages.Razor.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\WebGrease.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\EntityFramework.xml
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\EntityFramework.SqlServer.xml
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\System.Web.Helpers.xml
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\System.Web.Mvc.xml
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\System.Web.Optimization.xml
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\System.Web.Razor.xml
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\System.Web.WebPages.xml
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\System.Web.WebPages.Deployment.xml
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\System.Web.WebPages.Razor.xml
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\Newtonsoft.Json.xml
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\Antlr3.Runtime.pdb
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\obj\Debug\WebBanGiay.csproj.AssemblyReference.cache
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\obj\Debug\WebBanGiay.csproj.CoreCompileInputs.cache
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\obj\Debug\WebBanGiay.csproj.CopyComplete
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\obj\Debug\WebBanGiay.dll
+C:\Users\vocuo\OneDrive\Máy tính\WebBanGiay\WebBanGiay\obj\Debug\WebBanGiay.pdb
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\obj\Debug\WebBanGiay.csproj.AssemblyReference.cache
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\obj\Debug\WebBanGiay.csproj.CoreCompileInputs.cache
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\obj\Debug\WebBanGiay.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\obj\Debug\WebBanGiay.pdb
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\WebBanGiay.dll.config
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\WebBanGiay.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\WebBanGiay.pdb
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\csc.exe
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\csc.exe.config
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\csc.rsp
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\csi.exe
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\csi.exe.config
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\csi.rsp
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.AppContext.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.Console.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.IO.Compression.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.Net.Http.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.Net.Sockets.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.ValueTuple.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.Xml.XPath.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\vbc.exe
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\vbc.exe.config
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\vbc.rsp
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\VBCSCompiler.exe
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\Antlr3.Runtime.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\EntityFramework.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\EntityFramework.SqlServer.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\Newtonsoft.Json.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\System.Web.Helpers.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\System.Web.Mvc.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\System.Web.Optimization.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\System.Web.Razor.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\System.Web.WebPages.Deployment.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\System.Web.WebPages.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\System.Web.WebPages.Razor.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\WebGrease.dll
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\EntityFramework.xml
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\EntityFramework.SqlServer.xml
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\System.Web.Helpers.xml
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\System.Web.Mvc.xml
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\System.Web.Optimization.xml
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\System.Web.Razor.xml
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\System.Web.WebPages.xml
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\System.Web.WebPages.Deployment.xml
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\System.Web.WebPages.Razor.xml
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\Newtonsoft.Json.xml
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\Antlr3.Runtime.pdb
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SV\Downloads\WebBanGiay\WebBanGiay\obj\Debug\WebBanGiay.csproj.CopyComplete
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\WebBanGiay.dll.config
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\WebBanGiay.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\WebBanGiay.pdb
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\csc.exe
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\csc.exe.config
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\csc.rsp
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\csi.exe
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\csi.exe.config
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\csi.rsp
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.AppContext.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.Console.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.IO.Compression.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.Net.Http.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.Net.Sockets.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.ValueTuple.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.Xml.XPath.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\vbc.exe
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\vbc.exe.config
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\vbc.rsp
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\VBCSCompiler.exe
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\Antlr3.Runtime.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\EntityFramework.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\EntityFramework.SqlServer.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\Newtonsoft.Json.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\System.Web.Helpers.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\System.Web.Mvc.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\System.Web.Optimization.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\System.Web.Razor.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\System.Web.WebPages.Deployment.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\System.Web.WebPages.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\System.Web.WebPages.Razor.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\WebGrease.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\EntityFramework.xml
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\EntityFramework.SqlServer.xml
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\System.Web.Helpers.xml
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\System.Web.Mvc.xml
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\System.Web.Optimization.xml
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\System.Web.Razor.xml
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\System.Web.WebPages.xml
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\System.Web.WebPages.Deployment.xml
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\System.Web.WebPages.Razor.xml
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\Newtonsoft.Json.xml
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\Antlr3.Runtime.pdb
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\obj\Debug\WebBanGiay.csproj.AssemblyReference.cache
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\obj\Debug\WebBanGiay.csproj.CoreCompileInputs.cache
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\obj\Debug\WebBanGiay.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\obj\Debug\WebBanGiay.pdb
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\PagedList.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\PagedList.Mvc.dll
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\PagedList.xml
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\PagedList.Mvc.xml
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\bin\roslyn\.rescache
+C:\Users\vocuo\Documents\Zalo Received Files\WebBanGiay\WebBanGiay\obj\Debug\WebBanGiay.csproj.Up2Date

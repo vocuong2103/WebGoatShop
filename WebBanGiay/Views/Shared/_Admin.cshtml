@@ -1,0 +1,146 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="icon" type="image/x-icon" href="~/Image/favicoIcon.ico">
+    <link rel="stylesheet" href="~/Content/mystyle.css?v=1" type="text/css" />
+    <link rel="stylesheet" href="~/Content/bannerstyle.css" type="text/css" />
+    <link rel="stylesheet" href="~/Content/divleftstyle.css" type="text/css" />
+    <link href="~/Content/styleproduct.css" rel="stylesheet" />
+    <script type="text/javascript" src="~/Scripts/div-left-js.js"></script>
+    <script src="~/Scripts/script.js?v=1"></script>
+
+    @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/css")
+    <style>
+        .img-footer {
+        }
+
+        .user-name {
+            text-transform: uppercase;
+            font-size: 20px;
+            padding: 10px;
+            color: white;
+            display: block;
+            text-decoration: none;
+            letter-spacing: 2px;
+            text-align: center;
+            font-weight: 200;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body style="margin:0; font-family:Verdana, Geneva, Tahoma, sans-serif">
+
+    <div id="div-top">
+        <header>
+            <div class="inner-header" style="">
+                <p id="logo">
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;  </span>
+                    <a href="~/Product/IndexAdmin" class="button-logo-home" style="text-decoration:none;color:white;"><img src="~/Image/logowhite-removebg-preview.png" width="30" /> GOAT SHOP</a>
+                </p>
+                <nav>
+                    <ul id="main-menu">
+                        <li style="margin-bottom:23px;">
+                            <span>
+                                <a href="">
+
+                                </a>
+                            </span>
+                        </li>
+                        <li>
+
+
+                            <div>
+                                @if (Session["NameUser"] == null)
+                                {
+                                    <span class="header-left"><a href="~/Login/Index" style="margin-top:20px;"> Đăng xuất </a></span>
+                                }
+                            </div>
+
+
+
+                        </li>
+
+                    </ul>
+
+                </nav>
+            </div>
+        </header>
+    </div>
+    <div id="div-main">
+        <div id="div-left">
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="~/Product/IndexAdmin">Product</a>
+                <a href="~/Category/Index">Category</a>
+                <a href="~/Account/Index">Account</a>
+                <a href="~/Customer/Index">Customer</a>
+                <a href="~/Order/Index">Order</a>
+            </div>
+
+            <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                    document.getElementById("div-main").style.marginLeft = "250px";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                    document.getElementById("div-main").style.marginLeft = "0";
+                }
+            </script>
+
+
+        </div>
+        <div id="div-containt">
+
+            @RenderBody()
+        </div>
+    </div>
+
+    <div id="div-footer">
+        <table>
+
+            <tr>
+                <th>Về chúng tôi</th>
+                <th>Chính sách</th>
+                <th>Phương thức liên lạc</th>
+            </tr>
+            <tr>
+                <td>Hotline: 1900-xxxx-xxxx</td>
+                <td> Chính sách đổi trả</td>
+                <td style="">
+                    <img src="~/Image/fbicon-removebg-preview.png" class="img-footer" />
+                    <img src="~/Image/insicon-removebg-preview.png" class="img-footer" />
+                    <img src="~/Image/zalo-removebg-preview.png" class="img-footer" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Đây là trang web bán giày, với đa dạng các loại kiểu mẫu
+                    <br />khác nhau như Nike, Adidas,..v..v.
+                    <br />Có đủ các sản phẩm phù hợp với nhu cầu của mọi người.
+                    <br />Cảm ơn các bạn đã ghé thăm website.
+                </td>
+                <td>Chính sách bảo mật</td>
+
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>Chính sách bảo hành</td>
+                <td colspan="2" style="text-align:center">&copy;2022 Goatstore.com</td>
+
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+﻿@model WebBanGiay.Models.Cart
+
+@{
+    ViewBag.Title = "GoatSneaker";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .continue-buying {
+        border-radius: 12px;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+
+        .continue-buying:hover {
+            background-color: forestgreen;
+        }
+    .btn-delete {
+        border-radius: 8px;
+        color: white;
+        border-color: #de4f45;
+        background: #de4f45;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+</style>
+<h2 style="text-align:center;">
+
+    <img src="~/Image/cart2.png" style="height:40px;width:40px;" /> Giỏ Hàng
+</h2>
+
+<a href="~/Product/Index"><input type="button" value="Tiếp tục mua hàng" class="continue-buying" /></a>
+@if (Model != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Tên sản phẩm</th>
+                <th>Hình sản phẩm</th>
+                <th>Giá</th>
+                <th>Số lượng</th>
+                <th>Thành tiền</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                decimal total = item._quantity * (decimal)item._product.Price.Value;
+                <tr>
+                    <td>@Html.DisplayFor(model => item._product.NamePro)</td>
+                    <td><img src="@Url.Content(item._product.ImagePro)" height="50" width="50" /></td>
+                    <td>@Html.DisplayFor(model => item._product.Price)<span>$</span></td>
+                    <td>
+                        @using (Html.BeginForm("Update_Cart_Quantity", "ShoppingCart"))
+                        {
+                            <input type="hidden" value="@item._product.IDProduct" name="idPro" />
+                            <input type="number" value="@item._quantity" name="cartQuantity" />
+                            <input type="submit" value="Update" />
+                        }
+                    </td>
+                    <td>@total<span>$</span></td>
+                    <td>
+                        <a href="/ShoppingCart/RemoveCart/@item._product.IDProduct" class="btn-delete">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6" style="text-align:right">Tổng tiền: @Model.Total_money()<span>$</span></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td colspan="4">
+                    @using (Html.BeginForm("CheckOut", "ShoppingCart"))
+                    {
+                        <table style="border-collapse:separate;border-spacing:5px;">
+                            <tr>
+                                <td> Mã khách hàng: </td>
+                                <td> <input type="number" name="CodeCustomer" required /></td>
+                            </tr>
+                            <tr>
+                                <td>Địa chỉ giao hàng:</td>
+                                <td> <input type="text" name="AddressDeliverry" required /></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input type="submit" value="Thanh toán" class="btn btn-success" />
+                                    <a href="@Url.Action("DangKy","Login")" class="btn btn-success"> Đăng ký</a>
+                                </td>
+                            </tr>
+                        </table>
+                    }
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+}
+else
+{
+    @Html.Partial("EmptyCart")
+}

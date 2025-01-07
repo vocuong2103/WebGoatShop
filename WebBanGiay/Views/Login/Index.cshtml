@@ -1,0 +1,65 @@
+﻿@model WebBanGiay.Models.Account
+
+@{
+    ViewBag.Title = "GoatSneaker";
+    Layout = "~/Views/Shared/_Login.cshtml";
+}
+
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DangNhap</title>
+</head>
+<style>
+    .field-validation-error {
+        color: red;
+    }
+
+    .box-form .left {
+        color: #FFFFFF;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url('../Image/background-login.jpg');
+        overflow: hidden;
+        width: 60%;
+    }
+
+    .button-login-home {
+        border-radius: 50px;
+        padding: 12px;
+        color: white;
+        box-shadow: 0px 4px 20px 0px #49c628a6;
+        background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);
+        cursor: pointer;
+        text-decoration: none;
+    }
+</style>
+<h5>Đăng nhập</h5>
+@using (Html.BeginForm("LoginAcount", "Login"))
+{
+    @Html.AntiForgeryToken()
+
+    <p>Bạn chưa có tài khoản? <a href="/Login/DangKy">Ấn vào đây để tạo tài khoản</a> </p>
+    <div class="inputs">
+        <p>@Html.LabelFor(model => model.Username) </p>
+        <p>@Html.TextBoxFor(model => model.Username, new { style = "field-validation-error" })</p>
+        <p>@Html.ValidationMessageFor(model => model.Username)</p>
+        <br>
+        <p>@Html.LabelFor(model => model.Password) </p>
+        <p>@Html.EditorFor(model => model.Password) </p>
+        <p>@Html.ValidationMessageFor(model => model.Password) </p>
+
+
+        @if (ViewBag.ErrorInFor == null)
+        {
+            <p>@ViewBag.ErrorInfor</p>
+        }
+    </div>
+
+    <button style="cursor:pointer;" type="submit">Đăng nhập</button>
+}
+
+
+<button type="submit"><a href="@Url.Action("DangKy","Login")" style="text-decoration:none; color:white;">Đăng kí</a></button>
+<a href="~/Product/Index" class="button-login-home">  Trở về</a>

@@ -1,0 +1,91 @@
+﻿@model IEnumerable<WebBanGiay.Models.Customer>
+
+@{
+    ViewBag.Title = "GoatSneaker";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+<style>
+    .btn-edit {
+        border-radius: 8px;
+        color: white;
+        border-color: #e3e039;
+        background: #e3e039;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+
+    .btn-details {
+        border-radius: 8px;
+        color: white;
+        border-color: #198754;
+        background: #198754;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+
+    .btn-delete {
+        border-radius: 8px;
+        color: white;
+        border-color: #de4f45;
+        background: #de4f45;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+</style>
+<h2>Khách hàng</h2>
+
+<p>
+    <a href="/Customer/Create" class="btn-details">Thêm thông tin khách hàng</a>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            ID khách hàng
+        </th>
+        <th>
+            Tên khách hàng
+        </th>
+        <th>
+            Số điện thoại
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            Địa chỉ
+        </th>
+        <th>
+            ID tài khoản
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDCus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NameCus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhoneCus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmailCus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDAccount)
+        </td>
+        <td>
+            <a href="/Customer/Edit/@item.IDCus" class="btn-edit">Chỉnh sửa</a> |
+            <a href="/Customer/Details/@item.IDCus" class="btn-details">Chi tiết</a> |
+            <a href="/Customer/Delete/@item.IDCus" class="btn-delete">Xóa</a>
+        </td>
+    </tr>
+}
+
+</table>

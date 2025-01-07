@@ -1,0 +1,57 @@
+﻿@model WebBanGiay.Models.Category
+
+@{
+    ViewBag.Title = "GoatSneaker";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<style>
+    .btn {
+        border-radius: 8px;
+        color: white;
+        border-color: cornflowerblue;
+        background: cornflowerblue;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+
+    .btn-create {
+        border-radius: 8px;
+        color: white;
+        border-color: #198754;
+        background: #198754;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+</style>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            ID
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.IDCate, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.IDCate, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Tên danh mục
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.NameCate, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.NameCate, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Tạo" class="btn-create" /> | <a href="/Category/Index" class="btn">Trở về</a>
+            </div>
+        </div>
+    </div>
+}

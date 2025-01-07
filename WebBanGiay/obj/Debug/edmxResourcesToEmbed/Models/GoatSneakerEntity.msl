@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GoatSneakerModelStoreContainer" CdmEntityContainer="GoatSneakerEntities3">
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="GoatSneakerModel.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="IDAccount" ColumnName="IDAccount" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="GoatSneakerModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="IDCate" ColumnName="IDCate" />
+          <ScalarProperty Name="NameCate" ColumnName="NameCate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="GoatSneakerModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="IDCus" ColumnName="IDCus" />
+          <ScalarProperty Name="NameCus" ColumnName="NameCus" />
+          <ScalarProperty Name="PhoneCus" ColumnName="PhoneCus" />
+          <ScalarProperty Name="EmailCus" ColumnName="EmailCus" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="IDAccount" ColumnName="IDAccount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Manegers">
+      <EntityTypeMapping TypeName="GoatSneakerModel.Maneger">
+        <MappingFragment StoreEntitySet="Maneger">
+          <ScalarProperty Name="IDMan" ColumnName="IDMan" />
+          <ScalarProperty Name="TenQuanLy" ColumnName="TenQuanLy" />
+          <ScalarProperty Name="IDAccount" ColumnName="IDAccount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderDetails">
+      <EntityTypeMapping TypeName="GoatSneakerModel.OrderDetail">
+        <MappingFragment StoreEntitySet="OrderDetail">
+          <ScalarProperty Name="IDDetail" ColumnName="IDDetail" />
+          <ScalarProperty Name="IDProduct" ColumnName="IDProduct" />
+          <ScalarProperty Name="IDPro" ColumnName="IDPro" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderProes">
+      <EntityTypeMapping TypeName="GoatSneakerModel.OrderPro">
+        <MappingFragment StoreEntitySet="OrderPro">
+          <ScalarProperty Name="IDPro" ColumnName="IDPro" />
+          <ScalarProperty Name="DateOrder" ColumnName="DateOrder" />
+          <ScalarProperty Name="IDCus" ColumnName="IDCus" />
+          <ScalarProperty Name="AddressDeliverry" ColumnName="AddressDeliverry" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="GoatSneakerModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="IDProduct" ColumnName="IDProduct" />
+          <ScalarProperty Name="NamePro" ColumnName="NamePro" />
+          <ScalarProperty Name="DecriptionPro" ColumnName="DecriptionPro" />
+          <ScalarProperty Name="IDCategory" ColumnName="IDCategory" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="ImagePro" ColumnName="ImagePro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

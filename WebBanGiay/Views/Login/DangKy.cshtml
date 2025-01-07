@@ -1,0 +1,91 @@
+﻿@model WebBanGiay.Models.DangKyViewModel
+@{
+    ViewBag.Title = "GoatSneaker";
+    Layout = "~/Views/Shared/_Login.cshtml";
+}
+<link href="~/Content/css/titleheader.css" rel="stylesheet" />
+<style>
+    .box-form .left {
+        color: #FFFFFF;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url('../Image/background-login.jpg');
+        overflow: hidden;
+        width: 60%;
+    }
+</style>
+@using (Html.BeginForm("RegisterUser", "Login", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <div class="shape-login">
+        <table>
+            <tr>
+                <th colspan="2"> <p style="text-align:center;font-size:24px;"> Đăng ký</p></th>
+            </tr>
+            <tr style="padding-top:10px">
+                <th>Tên Đăng Nhập</th>
+                <th>
+                    @Html.TextBoxFor(model => model.Account.Username, new { @class = "input" })
+                    @Html.ValidationMessageFor(model => model.Account.Username, "", new { @class = "text-danger" })
+                </th>
+            </tr>
+            <tr style="padding-top: 10px">
+                <th>Mật khẩu</th>
+                <th>
+                    @Html.PasswordFor(model => model.Account.Password, new { @class = "input" })
+                    @Html.ValidationMessageFor(model => model.Account.Password, "", new { @class = "text-danger" })
+                </th>
+            </tr>
+            <tr style="padding-top: 10px">
+                <th>Nhập lại mật khẩu</th>
+                <th>
+                    @Html.PasswordFor(model => model.Account.ConfirmPassword, new { @class = "input" })
+                    @Html.ValidationMessageFor(model => model.Account.ConfirmPassword, "", new { @class = "text-danger" })
+                </th>
+            </tr>
+            <tr style="padding-top: 10px">
+                <th>Tên khách hàng</th>
+                <th>
+                    @Html.TextBoxFor(model => model.Customer.NameCus, new { @class = "input" })
+                    @Html.ValidationMessageFor(model => model.Customer.NameCus, "", new { @class = "text-danger" })
+                </th>
+            </tr>
+            <tr style="padding-top: 10px">
+                <th>SDT</th>
+                <th>
+                    @Html.TextBoxFor(model => model.Customer.PhoneCus, new { @class = "input" })
+                    @Html.ValidationMessageFor(model => model.Customer.PhoneCus, "", new { @class = "text-danger" })
+                </th>
+            </tr>
+            <tr style="padding-top: 10px">
+                <th>Email</th>
+                <th>
+                    @Html.TextBoxFor(model => model.Customer.EmailCus, new { @class = "input" })
+                    @Html.ValidationMessageFor(model => model.Customer.EmailCus, "", new { @class = "text-danger" })
+                </th>
+            </tr>
+            <tr style="padding-top: 10px">
+                <th>Địa chỉ</th>
+                <th>
+                    @Html.TextBoxFor(model => model.Customer.Address, new { @class = "input" })
+                    @Html.ValidationMessageFor(model => model.Customer.Address, "", new { @class = "text-danger" })
+                </th>
+            </tr>
+            <tr style="padding-top: 10px">
+                @if (!string.IsNullOrEmpty(ViewBag.ErrorInfo))
+                {
+                    <th colspan="2" class="alert" role="alert">
+                        @ViewBag.ErrorInfo
+                    </th>
+                }
+            </tr>
+            <tr style="padding-top:10px">
+                <th style="text-align: center; padding-left: 50px;"><button type="submit" style=" cursor: pointer" class="btn-login">Đăng ký</button></th>
+                <th style="padding-left:20px; cursor:pointer; text-decoration:none;"> <a href="~/Login/Index" class="btn-register">Trở về</a></th>
+            </tr>
+        </table>
+    </div>
+
+}
+
+

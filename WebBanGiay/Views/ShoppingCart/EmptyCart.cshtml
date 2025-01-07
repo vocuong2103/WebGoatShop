@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "GoatSneaker";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .continue-buying {
+        border-radius: 12px;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+
+        .continue-buying:hover {
+            background-color: forestgreen;
+        }
+</style>
+<h2 style="text-align:center;">Giỏ Hàng</h2>
+
+<a href="~/Product/Index"><input type="button" value="Tiếp tục mua hàng" class="continue-buying" /></a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tên sản phẩm</th>
+            <th>Hình sản phẩm</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+            <th>Thành tiền</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="6">
+                Chưa có sản phẩm nào....
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+

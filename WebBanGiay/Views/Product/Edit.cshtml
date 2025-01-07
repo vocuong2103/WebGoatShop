@@ -1,0 +1,87 @@
+﻿@model WebBanGiay.Models.Product
+
+@{
+    ViewBag.Title = "GoatSneaker";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+<style>
+    .btn-save {
+        border-radius: 8px;
+        color: white;
+        border-color: #198754;
+        background: #198754;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+
+    .btn {
+        border-radius: 8px;
+        color: white;
+        border-color: cornflowerblue;
+        background: cornflowerblue;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+</style>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            ID
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.IDProduct, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.IDProduct, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Tên sản phẩm
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.NamePro, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.NamePro, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Chi tiết
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.DecriptionPro, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.DecriptionPro, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Danh mục
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.IDCategory, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.IDCategory, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Giá
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Hình ảnh
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ImagePro, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ImagePro, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Lưu" class="btn-save" /> | <a href="/Product/IndexAdmin" class="btn">Trở về</a>
+            </div>
+        </div>
+    </div>
+}
+

@@ -1,0 +1,193 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="icon" type="image/x-icon" href="~/Image/favicoIcon.ico">
+    <link rel="stylesheet" href="~/Content/mystyle.css?v=2" type="text/css" />
+    <link rel="stylesheet" href="~/Content/bannerstyle.css?v=3" type="text/css" />
+    <link rel="stylesheet" href="~/Content/divleftstyle.css" type="text/css" />
+    <link href="~/Content/styleproduct.css" rel="stylesheet" />
+    <script type="text/javascript" src="~/Scripts/div-left-js.js"></script>
+    <script src="~/Scripts/script.js?v=1"></script>
+
+    @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/css")
+</head>
+<body style="margin:0; font-family:Verdana, Geneva, Tahoma, sans-serif">
+
+    <div id="div-top">
+        <header>
+            <div class="inner-header" style="">
+                <p id="logo">
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;  </span>
+                    <a href="~/Product/Index" class="button-logo-home" style="text-decoration:none;color:white;"><img src="~/Image/logowhite-removebg-preview.png" width="30" /> GOAT SHOP</a>
+                </p>
+                <nav>
+                    <ul id="main-menu">
+                        <li style="margin-bottom:23px;">
+                            <span>
+                                <a href="/ShoppingCart/ShowCart">
+                                    <img src="@Url.Content("~/Image/cart2.png")" style="height:30px;width:30px;margin-top:10px;" /> <span>@Html.Action("BagCart", "ShoppingCart")</span>
+                                </a>
+                            </span>
+                        </li>
+                        <li>
+
+
+                            <div>
+                                @if (Session["Username"] == null)
+                                {
+                                    <span class="header-left"><a href="~/Login/Index" style="margin-top:20px;"> Đăng nhập </a></span>
+                                }
+                                else
+                                {
+                                    <div style="display:flex;margin-top:20px;">
+                                        <span class="user-name">
+                                            @Session["Username"]
+                                        </span>
+                                        <a href="@Url.Action("LogOutUser","Login")">Đăng xuất</a>
+                                    </div>
+
+                                }
+                            </div>
+
+
+
+                        </li>
+
+                    </ul>
+
+                </nav>
+            </div>
+        </header>
+    </div>
+    <div id="div-main">
+        <div id="div-left">
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="~/Category/Adidas">Adidas</a>
+                <a href="~/Category/Converse">Converse</a>
+                <a href="~/Category/Nike">Nike</a>
+                <a href="~/Category/Vans">Vans</a>
+                <a href="~/Category/Jordan">Jordan</a>
+                <a href="~/Category/Other">Other</a>
+            </div>
+
+            <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                    document.getElementById("div-main").style.marginLeft = "250px";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                    document.getElementById("div-main").style.marginLeft = "0";
+                }
+            </script>
+
+
+        </div>
+        <div id="div-containt">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+
+                    <img src="~/Image/banner.jpg" style="width:100%;">
+
+                </div>
+
+                <div class="mySlides fade">
+
+                    <img src="~/Image/banner-4.jpg" style="width:100%;">
+
+                </div>
+
+                <div class="mySlides fade">
+
+                    <img src="~/Image/saleoff.jpg" style="width:100%;">
+
+                </div>
+
+            </div>
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <form action="@Url.Action("Search", "Product")" method="get" class="search-form">
+                <input type="text" name="searchString" placeholder="Search products..." />
+                <button type="submit">Search</button>
+            </form>
+            <hr/>
+            @RenderBody()
+        </div>
+    </div>
+
+    <div id="div-footer">
+        <table>
+
+            <tr>
+                <th>Về chúng tôi</th>
+                <th>Chính sách</th>
+                <th>Phương thức liên lạc</th>
+            </tr>
+            <tr>
+                <td>Hotline: 1900-xxxx-xxxx</td>
+                <td> Chính sách đổi trả</td>
+                <td style="">
+                    <img src="~/Image/fbicon-removebg-preview.png" class="img-footer" />
+                    <img src="~/Image/insicon-removebg-preview.png" class="img-footer" />
+                    <img src="~/Image/zalo-removebg-preview.png" class="img-footer" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Đây là trang web bán giày, với đa dạng các loại kiểu mẫu
+                    <br />khác nhau như Nike, Adidas,..v..v.
+                    <br />Có đủ các sản phẩm phù hợp với nhu cầu của mọi người.
+                    <br />Cảm ơn các bạn đã ghé thăm website.
+                </td>
+                <td>Chính sách bảo mật</td>
+
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>Chính sách bảo hành</td>
+                <td colspan="2" style="text-align:center">&copy;2022 Goatstore.com</td>
+
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+
+</body>
+</html>

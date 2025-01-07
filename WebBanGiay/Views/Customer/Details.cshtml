@@ -1,0 +1,81 @@
+﻿@model WebBanGiay.Models.Customer
+
+@{
+    ViewBag.Title = "GoatSneaker";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<style>
+    .btn-edit {
+        border-radius: 8px;
+        color: white;
+        border-color: #e3e039;
+        background: #e3e039;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+    .btn {
+        border-radius: 8px;
+        color: white;
+        border-color: cornflowerblue;
+        background: cornflowerblue;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+</style>
+
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            ID khách hàng
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDCus)
+        </dd>
+
+        <dt>
+            Tên khách hàng
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameCus)
+        </dd>
+
+        <dt>
+            Số điện thoại
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneCus)
+        </dd>
+
+        <dt>
+            Email
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmailCus)
+        </dd>
+
+        <dt>
+            Địa chỉ
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            ID tài khoản
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDAccount)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <a href="/Customer/Edit/@Model.IDCus" class="btn-edit">Chỉnh sửa</a> | <a href="/Customer/Index" class="btn">Trở về</a>
+</p> 

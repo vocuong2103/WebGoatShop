@@ -1,0 +1,87 @@
+﻿@model WebBanGiay.Models.Customer
+
+@{
+    ViewBag.Title = "GoatSneaker";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+<style>
+    .btn-delete {
+        border-radius: 8px;
+        color: white;
+        border-color: #de4f45;
+        background: #de4f45;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+
+    .btn {
+        border-radius: 8px;
+        color: white;
+        border-color: cornflowerblue;
+        background: cornflowerblue;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+</style>
+
+<h3>Bạn có muốn xóa khách hàng?</h3>
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            ID khách hàng
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDCus)
+        </dd>
+
+        <dt>
+            Tên khách hàng
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameCus)
+        </dd>
+
+        <dt>
+            Số điện thoại
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneCus)
+        </dd>
+
+        <dt>
+            Email
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmailCus)
+        </dd>
+
+        <dt>
+            Địa chỉ
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            ID tài khoản
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDAccount)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+<div class="form-actions no-color">
+    <input type="submit" value="Delete" class="btn-delete" /> | <a href="/Customer/Index" class="btn">Trở về</a>
+</div>
+    }
+</div>

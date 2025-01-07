@@ -1,0 +1,48 @@
+﻿@model WebBanGiay.Models.Category
+
+@{
+    ViewBag.Title = "GoatSneaker";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+<style>
+    .btn-edit {
+        border-radius: 8px;
+        color: white;
+        border-color: #e3e039;
+        background: #e3e039;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+
+    .btn {
+        border-radius: 8px;
+        color: white;
+        border-color: cornflowerblue;
+        background: cornflowerblue;
+        text-decoration: none;
+        padding: 7px 25px;
+    }
+</style>
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            ID
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDCate)
+        </dd>
+
+        <dt>
+            Tên danh mục
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameCate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <a href="/Category/Edit/@Model.IDCate" class="btn-edit">Chỉnh sửa</a> | <a href="/Category/Index" class="btn">Trở về</a>
+</p>
